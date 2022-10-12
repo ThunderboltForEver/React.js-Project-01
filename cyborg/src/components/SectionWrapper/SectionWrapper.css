@@ -1,0 +1,26 @@
+.wrapper {
+    background-color: #212529;
+    margin-top: 60px;
+    border-radius: 20px;
+    padding: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.wrapper-text {
+    display: flex;
+    align-items:flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.wrapper h2 {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.wrapper h3 {
+    font-weight: 700;
+    color: #ec6090;
+}

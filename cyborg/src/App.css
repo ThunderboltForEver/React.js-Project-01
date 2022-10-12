@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box !important;
+}
+body {
+    background-color: #212529;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+::selection {
+    background-color: #ec6090;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #ec6090 !important;
+}
+
