@@ -1,3 +1,4 @@
+import MainButton from '../MainButton/MainButton';
 import './YourGamingItem.css';
 
 const YourGamingItem = (props) => {
@@ -17,7 +18,7 @@ const YourGamingItem = (props) => {
                     <li><h4>{props.statusTitle}</h4><span>{props.statusValue}</span></li>
                 </ul>
                 <div className='your-gaming-button'>
-                    <a href='/#'>Download</a>
+                    <MainButton LinkTo = '/#'>Download</MainButton>
                 </div>
             </div>
             <hr />

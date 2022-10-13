@@ -46,22 +46,10 @@
     color: #666;
     font-size: 14px;
 }
-
+hr {
+    color: #666;
+}
 .your-gaming-button a {
     background-color: transparent;
     border: 0.5px solid #666;
-    padding: 12px 30px;
-    font-size: 14px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-}
-.your-gaming-button a:hover {
-    background-color: #fff;
-    color: #ec6090;
-}
-hr {
-    color: #666;
 }

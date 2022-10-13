@@ -1,4 +1,5 @@
 import './NavItem.css';
+import { Link } from 'react-router-dom';
 
 const NavItem = (props) => {
     return (
@@ -12,7 +13,7 @@ const NavItem = (props) => {
 const LinkItem = (props) => {
     return (
         <>
-        <a href={props.href} className="nav-link">{props.children}</a>
+        <Link to={props.href} className="nav-link">{props.children}</Link>
         </>
     )
 }

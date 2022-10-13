@@ -19,4 +19,6 @@ a {
 a:hover {
     color: #ec6090 !important;
 }
-
+a:focus {
+    color: #ec6090 !important;
+}

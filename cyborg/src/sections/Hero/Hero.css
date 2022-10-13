@@ -22,18 +22,3 @@
 .hero-title span {
     color: #ec6090;
 }
-
-.main-hero a {
-    background-color: #ec6090;
-    padding: 12px 30px;
-    font-size: 14px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-}
-.main-hero a:hover {
-    background-color: #fff;
-    color: #ec6090;
-}

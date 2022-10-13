@@ -1,22 +1,22 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Container from './components/Container/Container';
+import { Header, Footer } from './sections/index';
+import { Home, Browse } from './Pages/index';
 import './App.css';
-import { Container, SectionWrapper } from './components/index';
-import { Header, Hero, Footer, MostPopular } from './sections/index';
-import YourGaming from './sections/YourGaming/YourGaming';
 
 const App = () => {
     return (
         <>
-            <Header />
-            <Container>
-                <Hero />
-                <SectionWrapper title="Most Popular" nextTitle="Right Now">
-                    <MostPopular />
-                </SectionWrapper>
-                <SectionWrapper title="Your Gaming" nextTitle="Library">
-                    <YourGaming />
-                </SectionWrapper>
-            </Container>
-            <Footer />
+            <Router>
+                <Header />
+                <Container>
+                    <Routes>
+                        <Route path='/' element={<Home />} />
+                        <Route path='/Browse' element={<Browse />} />
+                    </Routes>
+                </Container>
+                <Footer />
+            </Router>
         </>
     )
 }

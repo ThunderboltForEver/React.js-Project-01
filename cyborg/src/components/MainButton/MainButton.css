@@ -1,0 +1,14 @@
+.main-button {
+    background-color: #ec6090;
+    padding: 12px 30px;
+    font-size: 14px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.main-button:hover {
+    background-color: #fff;
+    color: #ec6090;
+}
