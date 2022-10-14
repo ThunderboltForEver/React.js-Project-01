@@ -7,8 +7,8 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
-@media (max-width:380px) {
+@media (max-width:772px) {
     .page-content {
-        padding: 20px;
+        padding: 15px;
     }
 }

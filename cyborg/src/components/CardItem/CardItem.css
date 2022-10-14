@@ -9,6 +9,12 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+@media (max-width:772px) {
+    .card-wrapper {
+        width: 100%;
+    }
+}
+
 .Most-Popular-item-image {
     width: 100%;
     border-radius: 20px;

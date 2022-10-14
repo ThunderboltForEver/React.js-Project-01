@@ -14,15 +14,28 @@
     gap: 10px;
     margin-bottom: 20px;
 }
-
+@media (max-width:772px) {
+   .wrapper-text {
+    justify-content: center;
+   }
+}
 .wrapper h2 {
     font-weight: 700;
     text-decoration: underline;
 }
-
+@media (max-width:772px) {
+    h2 {
+        font-size: 20px;
+    }
+}
 .wrapper h3 {
     font-weight: 700;
     color: #ec6090;
+}
+@media (max-width:772px) {
+    h3 {
+        font-size: 20px;
+    }
 }
 .wrapper-button {
     position: absolute;
@@ -32,4 +45,9 @@
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
+}
+@media (max-width:772px) {
+    hr {
+        margin: 30px;
+    }
 }

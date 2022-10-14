@@ -7,12 +7,22 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
-
+@media (max-width:772px) {
+    .main-hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 .hero-text {
     max-width: 500px;
     padding: 30px 0;
 }
-
+@media (max-width:772px) {
+    .hero-text {
+        text-align: center;
+    }
+}
 .hero-title {
     padding-top: 15px;
     font-size: 2.8rem;
@@ -21,4 +31,9 @@
 
 .hero-title span {
     color: #ec6090;
+}
+@media (max-width:500px) {
+    .hero-title span {
+        color: #403255;
+    }
 }
