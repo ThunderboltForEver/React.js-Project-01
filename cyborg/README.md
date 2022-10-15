@@ -1,4 +1,4 @@
-# Don't forget to download react libraries
+# Don't forget to install node_modules
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
