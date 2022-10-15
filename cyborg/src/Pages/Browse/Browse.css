@@ -1,0 +1,121 @@
+.featured-games {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width:992px) {
+    .featured-games {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.featured-games .first-column {
+    width: 70%;
+}
+
+@media (min-width:772px) and (max-width:992px) {
+    .featured-games .first-column {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .featured-games .first-column {
+        width: 95%;
+    }
+}
+
+.featured-games .first-column .wrapper {
+    margin: 0;
+}
+
+.featured-games .first-column .main-button {
+    display: none;
+}
+
+.featured-games .second-column {
+    transform: translateY(-60px);
+    -webkit-transform: translateY(-60px);
+    -moz-transform: translateY(-60px);
+    -ms-transform: translateY(-60px);
+    -o-transform: translateY(-60px);
+}
+
+.featured-games .second-column .wrapper-text {
+    flex-wrap: wrap;
+}
+
+@media (min-width:992px) {
+    .featured-games .second-column .wrapper-text h3 {
+        transform: translateY(-18px);
+        -webkit-transform: translateY(-18px);
+        -moz-transform: translateY(-18px);
+        -ms-transform: translateY(-18px);
+        -o-transform: translateY(-18px);
+    }
+}
+
+.featured-games .second-column .main-button {
+    display: none;
+}
+
+.featured-games .first-column .cards-holder {
+    justify-content: center;
+    gap: 0px 20px;
+}
+
+.featured-games .second-column {
+    flex: 1 30%;
+}
+
+@media (max-width:500px) {
+    .featured-games .second-column {
+        flex: 0.95;
+    }
+}
+
+@media (min-width:500px) and (max-width:772px) {
+    .featured-games .second-column {
+        flex: 0.7;
+    }
+}
+
+.featured-games .first-column .card-wrapper {
+    background-color: transparent !important;
+    padding: 0 !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+@media (max-width:772px) {
+    .card-wrapper {
+        width: 100%;
+    }
+}
+
+.featured-games .first-column .card-wrapper .Most-Popular-item-image {
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.top-downloaded-link {
+    display: flex;
+    justify-content: center;
+}
+.top-downloaded-link a{
+    color: #ec6090;
+}
+.live-steam .wrapper {
+    background-color: #27292a;
+}
+.live-steam .wrapper .wrapper-text {
+    display: flex;
+    justify-content: center;
+}
