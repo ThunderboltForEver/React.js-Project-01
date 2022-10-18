@@ -1,3 +1,11 @@
 .second-column .wrapper {
     padding-bottom: 30px;
 }
+
+.top-downloaded-link {
+    display: flex;
+    justify-content: center;
+}
+.top-downloaded-link a{
+    color: #ec6090;
+}
