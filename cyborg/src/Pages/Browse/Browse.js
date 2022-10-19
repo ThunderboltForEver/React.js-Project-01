@@ -5,6 +5,7 @@ import {
   LiveSteamItemInfo,
   FeaturedGames,
 } from "../../components/index";
+import MostLiveStreamsData from "../../Data/MostLiveStreams/MostLiveStreamsData";
 
 const Home = () => {
   return (
@@ -32,10 +33,21 @@ const Home = () => {
       <div className="live-steam">
         <SectionWrapper
           title="How To Start Your"
-          nextTitle="Live Steam"
+          nextTitle="Live Stream"
           ButtonValue="Go To Profile"
         >
           <div className="live-steam-boxes">{LiveSteamItemInfo}</div>
+        </SectionWrapper>
+      </div>
+      <div className="most-live-streams">
+        <SectionWrapper
+          title="Most Popular"
+          nextTitle="Live Stream"
+          ButtonValue="Discover All Streams"
+        >
+          <div className="LiveStreamsItemCards">
+            {MostLiveStreamsData}
+          </div>
         </SectionWrapper>
       </div>
     </>

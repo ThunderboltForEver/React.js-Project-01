@@ -1,4 +1,4 @@
-import "./LiveSteamItem.css";
+import "./LiveStreamItem.css";
 
 const LiveSteamItem = (props) => {
 

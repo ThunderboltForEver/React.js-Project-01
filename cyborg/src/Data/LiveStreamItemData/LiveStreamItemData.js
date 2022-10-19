@@ -1,7 +1,7 @@
 import service1 from "../../assests/images/service-01.jpg";
 import service2 from "../../assests/images/service-02.jpg";
 import service3 from "../../assests/images/service-03.jpg";
-import LiveSteamItem  from "../../components/LiveSteamItem/LiveSteamItem";
+import LiveSteamItem  from "../../components/LiveStreamItem/LiveStreamItem";
 
 const LiveSteamItemData = [
   {

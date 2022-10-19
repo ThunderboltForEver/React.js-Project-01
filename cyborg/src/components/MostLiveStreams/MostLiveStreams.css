@@ -1,0 +1,50 @@
+.LiveStreamsItemCards .LiveStreamsItemCard {
+    width: 220px;
+
+}
+@media (max-width:772px) {
+    .LiveStreamsItemCards .LiveStreamsItemCard {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+}
+.LiveStreamsItemCard > img {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    max-width: 100%;
+    flex: 1 100%;
+}
+
+/* .LiveStreamsItemCard .LiveStreamsItemCardInfo {
+    
+} */
+.LiveStreamsItemCard .LiveStreamsItemCardInfo ul {
+    padding: 20px 0;
+    display: flex;
+    
+}
+.LiveStreamsItemCard .LiveStreamsItemCardInfo ul li > img {
+ margin-right: 15px;
+ border-radius: 50px;
+ -webkit-border-radius: 50px;
+ -moz-border-radius: 50px;
+ -ms-border-radius: 50px;
+ -o-border-radius: 50px;
+}
+.LiveStreamsItemCard .LiveStreamsItemCardInfo ul li:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.LiveStreamsItemCard .LiveStreamsItemCardInfo ul li:nth-child(2) span {
+    color: #ec6090;
+    font-size: 14px;
+}
+.LiveStreamsItemCard .LiveStreamsItemCardInfo ul li:nth-child(2) h6 {
+    font-weight: 700;
+}
