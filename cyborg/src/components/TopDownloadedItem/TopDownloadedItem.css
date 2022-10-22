@@ -1,7 +1,9 @@
 .second-column .wrapper {
     padding-bottom: 30px;
 }
-
+div.rating-info {
+    display: inline;
+}
 .top-downloaded-link {
     display: flex;
     justify-content: center;

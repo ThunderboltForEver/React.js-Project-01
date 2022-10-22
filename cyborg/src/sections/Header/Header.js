@@ -18,9 +18,9 @@ const Header = () => {
                         <ul className="navbar-nav ms-auto">
                             <NavItem><LinkItem href="/">Home</LinkItem></NavItem>
                             <NavItem><LinkItem href="/Browse">Browse</LinkItem></NavItem>
-                            <NavItem><LinkItem href="#Details">Details</LinkItem></NavItem>
+                            <NavItem><LinkItem href="/Details">Details</LinkItem></NavItem>
                             <NavItem><LinkItem href="/Streams">Streams</LinkItem></NavItem>
-                            <NavItem><LinkItem href="#Profile">Profile</LinkItem></NavItem>
+                            <NavItem><LinkItem href="/Profile">Profile</LinkItem></NavItem>
                         </ul>
                     </div>
                 </div>
