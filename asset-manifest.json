@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React.js-Project-01/static/css/main.e8ce6caf.css",
-    "main.js": "/React.js-Project-01/static/js/main.5fd11c35.js",
+    "main.js": "/React.js-Project-01/static/js/main.c4f9ba95.js",
     "static/media/feature-right.jpg": "/React.js-Project-01/static/media/feature-right.01ad26795580300e2029.jpg",
     "static/media/feature-left.jpg": "/React.js-Project-01/static/media/feature-left.2e7e18e857172344a46d.jpg",
     "static/media/details-02.jpg": "/React.js-Project-01/static/media/details-02.4c3a5cf3e64cb6cc18f5.jpg",
@@ -25,10 +25,10 @@
     "static/media/popular-03.jpg": "/React.js-Project-01/static/media/popular-03.1c8955f99df2b3b94391.jpg",
     "index.html": "/React.js-Project-01/index.html",
     "main.e8ce6caf.css.map": "/React.js-Project-01/static/css/main.e8ce6caf.css.map",
-    "main.5fd11c35.js.map": "/React.js-Project-01/static/js/main.5fd11c35.js.map"
+    "main.c4f9ba95.js.map": "/React.js-Project-01/static/js/main.c4f9ba95.js.map"
   },
   "entrypoints": [
     "static/css/main.e8ce6caf.css",
-    "static/js/main.5fd11c35.js"
+    "static/js/main.c4f9ba95.js"
   ]
 }
